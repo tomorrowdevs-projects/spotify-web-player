@@ -1,34 +1,22 @@
- Create an onboarding process using the attached mockup file.
+Create a Custom Spotify Web Player Interface
 ===============================
 
-![preview](https://github.com/tomorrowdevs-projects/user-onboarding/blob/main/preview.png "preview")
-
-## Download here the [Figma Mockup](https://github.com/tomorrowdevs-projects/user-onboarding/blob/main/User_onboarding.fig)
+*This task should be done with another Teammate*
+----------------
 
 Requirements:
 ----------------
-- Respect exactly the provided layout
-- Deploy the project towards Netlify (www.netlify.com) connected to your GitHub Repo
-- The form should be validated and should prompt success or error messages
-- Error messages should be provided on each field
+- Intregate official APIs: https://developer.spotify.com/documentation/web-api/
+- Provide functionalities:
+  - Connect account using Facebook Auth or Email Login
+  - Search songs or Playlists
+  - Show results
+  - Play song or Playlist
 
-Level 1:
-----------------
 - Start the project using ReactJs
-- Implement all the components and layouts
-- Provide a validation for each field
-- Use state to store temporary values and show the steps
-- Write tests for each single validation
-
-Level 2:
-----------------
-- Use react-router to navigate between the steps
-- Find a strategy to save temporary values (eg. Context, Redux, LocalStorage)
-
-Level 3:
-----------------
-- Save results with Strapi (https://strapi.io)
-- Show a loader while calling the api and provide a feedback for success or error messages
+- The application should have a very basic layout and be accessible from Desktop or Mobile following responsive rules
+- Deploy the project towards Netlify (www.netlify.com) connected to your GitHub Repo
+- After the project is deployed, analyze it with https://web.dev
 
 Before starting any of the tasks in this Learning Path, please READ the following rules
 ===============================
